@@ -1,9 +1,28 @@
-# React Stateful Animations Package
-Use this library of stateful animations in your React application. Currently we only have Upload and Download, but will be adding more soon.
-
+# React Stateful Animations Package 📽️
+Use this library of stateful animations in your **React** application. Current animations:
+- Upload
+- Download
+- _(More coming soon)_
 
 # What is a stateful animation
 What we mean by stateful animations is an animation which exists within different states. Currently, when using animated icons in an app these typically play once forward for a set amount of time, or loop. 
 
-In this package the animated icons hold a state, for example, our Download icon has an initial state, then when the download starts the icon moves to a loading state, and then when loading has finished it moves to an end state then back to the initial state again.
-This means that you can have smooth transitions between the different states (instead of just loading in different animations for the different states) and you can choose how long the animation exists in each state.
+In this package the animated icons hold a state, for example, our Download icon has an initial state, then you can trigger the animation when download starts the icon animates into to a loading state which loops forever, until you trigger the animation again when downloading has finished, then it moves to an end state and finally back to the initial state ready to start again..
+
+## How to use
+
+```
+import { Download, animationStart, animationEnd } from 'react-stateful-animations';
+
+const App = () => {
+  return (
+    <>
+      <button onClick={() => animationStart('download')}>Start</button>
+      <button onClick={() => animationEnd('download')}>End</button>
+      <Download id="download" /
+    </>
+  )
+}
+```
+
+Import the animation into your app, and give it an **id**. Also import the `animationStart` and `animationEnd` functions into your app. When triggering the start of your animation call `animationStart(id)` with the `id` that you registered your animation with.
