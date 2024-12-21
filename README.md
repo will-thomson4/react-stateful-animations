@@ -14,7 +14,7 @@ In this package the animated icons hold a state, for example, our Download icon 
 
 ## How to use
 
-```
+```jsx
 import { Download, animationStart, animationEnd } from 'react-stateful-animations';
 
 const App = () => {
