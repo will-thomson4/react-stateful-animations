@@ -15,17 +15,21 @@ In this package the animated icons hold a state, for example, our Download icon 
 ## How to use
 
 ```jsx
-import { Download, animationStart, animationEnd } from 'react-stateful-animations';
+import {
+  Download,
+  animationStart,
+  animationEnd,
+} from 'react-stateful-animations';
 
 const App = () => {
   return (
     <>
       <button onClick={() => animationStart('download')}>Start</button>
       <button onClick={() => animationEnd('download')}>End</button>
-      <Download id="download" /
+      <Download id="download" />
     </>
-  )
-}
+  );
+};
 ```
 
 Import the animation into your app, and give it an **id**. Also import the `animationStart` and `animationEnd` functions into your app. When triggering the start of your animation call `animationStart(id)` with the `id` that you registered your animation with.

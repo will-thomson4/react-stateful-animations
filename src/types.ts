@@ -1,9 +1,9 @@
 export interface Props {
   id: string;
-  props?: any;
+  className?: string;
+  style?: React.CSSProperties;
 }
 
 export interface BaseProps extends Props {
-  id: string;
   animationData: any;
 }

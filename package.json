@@ -12,7 +12,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c"
   },
-  "keywords": [],
   "author": "WT-4",
   "license": "ISC",
   "peerDependencies": {
@@ -69,6 +68,13 @@
     "tslib": "^2.8.1",
     "universalify": "^2.0.1"
   },
+  "keywords": [
+    "react",
+    "lottie",
+    "animations",
+    "stateful",
+    "icons"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/will-thomson4/react-stateful-animations.git"
