@@ -1,3 +1,8 @@
+export type AnimationCallbacks = {
+  start: () => void;
+  end: () => void;
+};
+
 export interface Props {
   id: string;
   className?: string;

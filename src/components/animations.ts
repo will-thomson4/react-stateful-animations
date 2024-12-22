@@ -1,7 +1,4 @@
-type AnimationCallbacks = {
-  start: () => void;
-  end: () => void;
-};
+import { AnimationCallbacks } from '../types';
 
 const animations: Record<string, AnimationCallbacks> = {};
 
