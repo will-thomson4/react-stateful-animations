@@ -1,6 +1,6 @@
 {
   "name": "@wt-4/react-stateful-animations",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Library of stateful animated icons in react",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
