@@ -19,7 +19,7 @@ import {
   Download,
   animationStart,
   animationEnd,
-} from 'react-stateful-animations';
+} from '@wt-4/react-stateful-animations';
 
 const App = () => {
   return (
