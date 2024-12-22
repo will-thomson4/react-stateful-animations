@@ -1,4 +1,4 @@
-# React Stateful Animations Package 📽️
+# React Stateful Animations 📽️
 
 Use this library of stateful animations in your **React** application. Current animations:
 
