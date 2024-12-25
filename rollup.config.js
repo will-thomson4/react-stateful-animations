@@ -25,7 +25,14 @@ module.exports = {
     commonjs({
       include: /node_modules/,
     }),
-    typescript(),
+    typescript({
+      useTsconfigDeclarationDir: true,
+      tsconfigOverride: {
+        compilerOptions: {
+          declaration: true,
+        },
+      },
+    }),
     json(),
   ],
   external: [
