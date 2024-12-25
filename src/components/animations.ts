@@ -1,5 +1,7 @@
-import { AnimationCallbacks } from '../types';
-
+type AnimationCallbacks = {
+  start: () => void;
+  end: () => void;
+};
 const animations: Record<string, AnimationCallbacks> = {};
 
 export const registerAnimation = (

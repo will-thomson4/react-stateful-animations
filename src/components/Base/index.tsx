@@ -1,7 +1,11 @@
 import React, { useEffect } from 'react';
 import Lottie, { ILottie } from '@lottielab/lottie-player/react';
-import { BaseProps } from '../../types';
+import { AnimationProps } from '../../types';
 import { registerAnimation, unregisterAnimation } from '../animations';
+
+interface BaseProps extends AnimationProps {
+  animationData: any;
+}
 
 const LottieAnimation = ({ id, animationData, ...props }: BaseProps) => {
   const ref = React.useRef<ILottie | null>(null);

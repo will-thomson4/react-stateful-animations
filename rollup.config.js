@@ -30,6 +30,7 @@ module.exports = {
       tsconfigOverride: {
         compilerOptions: {
           declaration: true,
+          declarationDir: 'dist/types',
         },
       },
     }),

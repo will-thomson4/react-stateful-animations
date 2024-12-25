@@ -3,12 +3,8 @@ export type AnimationCallbacks = {
   end: () => void;
 };
 
-export interface Props {
+export interface AnimationProps {
   id: string;
   className?: string;
   style?: React.CSSProperties;
-}
-
-export interface BaseProps extends Props {
-  animationData: any;
 }

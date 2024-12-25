@@ -1,7 +1,7 @@
 import Base from '../Base';
 import Animation from '../../assets/download.json';
-import { Props } from '../../types';
+import { AnimationProps } from '../../types';
 
-export default function Download({ id, ...props }: Props) {
+export default function Download({ id, ...props }: AnimationProps) {
   return <Base id={id} animationData={Animation} {...props} />;
 }
