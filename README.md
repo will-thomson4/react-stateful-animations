@@ -1,16 +1,26 @@
 # React Stateful Animations 📽️
 
 Use this library of stateful animations in your **React** application. Current animations:
-
 - Upload
 - Download
 - _(More coming soon)_
 
+See examples [here](https://will-thomson4.github.io/)
+
 # What is a stateful animation
 
-What we mean by stateful animations is an animation which exists within different states. Currently, when using animated icons in an app these typically play once forward for a set amount of time, or loop.
+Traditional animated icons either play once and stop, or loop continuously.
 
-In this package the animated icons hold a state, for example, our Download icon has an initial state, then you can trigger the animation when download starts the icon animates into to a loading state which loops forever, until you trigger the animation again when downloading has finished, then it moves to an end state and finally back to the initial state ready to start again..
+This package is different. Our animations have state, at the moment they can:
+1. Start in an initial state
+2. Animate _into_ a loading state (instead of just loading a new icon)
+3. Loop this loading state indefinitely until it is told to stop
+4. Transition _into_ a completion state (instead of just loading a new icon)
+5. Return to the initial state ready to start again
+
+This might be useful say if you want a Download icon to transition to an indefinite loading state while something is downloading, and then transition into a finished state when complete.
+
+We are looking to add more states and use cases for our animations, let us know if you have any ideas!
 
 ## How to use
 
