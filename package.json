@@ -38,7 +38,6 @@
     "find-cache-dir": "^3.3.2",
     "find-up": "^4.1.0",
     "fs-extra": "^10.1.0",
-    "fsevents": "^2.3.3",
     "function-bind": "^1.1.2",
     "graceful-fs": "^4.2.11",
     "hasown": "^2.0.2",
@@ -67,6 +66,9 @@
     "supports-preserve-symlinks-flag": "^1.0.0",
     "tslib": "^2.8.1",
     "universalify": "^2.0.1"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.3"
   },
   "keywords": [
     "react",
