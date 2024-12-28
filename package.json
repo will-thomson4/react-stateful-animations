@@ -1,5 +1,5 @@
 {
-  "name": "@wt-4/react-stateful-animations",
+  "name": "react-stateful-animations",
   "version": "1.0.9",
   "description": "Library of stateful animated icons in react",
   "main": "dist/index.js",

@@ -1,6 +1,7 @@
 # React Stateful Animations 📽️
 
 Use this library of stateful animations in your **React** application. Current animations:
+
 - Upload
 - Download
 - _(More coming soon)_
@@ -12,6 +13,7 @@ See examples [here](https://will-thomson4.github.io/)
 Traditional animated icons either play once and stop, or loop continuously.
 
 This package is different. Our animations have state, at the moment they can:
+
 1. Start in an initial state
 2. Animate _into_ a loading state (instead of just loading a new icon)
 3. Loop this loading state indefinitely until it is told to stop
@@ -29,7 +31,7 @@ import {
   Download,
   animationStart,
   animationEnd,
-} from '@wt-4/react-stateful-animations';
+} from 'react-stateful-animations';
 
 const App = () => {
   return (
