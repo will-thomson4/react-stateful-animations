@@ -4,6 +4,7 @@ Use this library of stateful animations in your **React** application. Current a
 
 - Upload
 - Download
+- Send
 - _(More coming soon)_
 
 See examples [here](https://will-thomson4.github.io/)
