@@ -15,20 +15,20 @@
   "author": "WT-4",
   "license": "ISC",
   "peerDependencies": {
+    "@lottielab/lottie-player": "^1.1.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "@lottielab/lottie-player": "^1.1.2"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/react": "^18.2.0",
-    "@types/react-dom": "^18.2.0",
-    "rollup": "^4.27.2",
-    "rollup-plugin-typescript2": "^0.36.0",
-    "typescript": "^5.6.3",
     "@rollup/plugin-commonjs": "^28.0.1",
     "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-node-resolve": "^15.3.0",
-    "rollup-plugin-peer-deps-external": "^2.2.4"
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "rollup": "^4.27.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.6.3"
   },
   "dependencies": {
     "commondir": "^1.0.1",
@@ -58,8 +58,8 @@
     "path-parse": "^1.0.7",
     "picomatch": "^2.3.1",
     "pkg-dir": "^4.2.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "resolve": "^1.22.8",
     "scheduler": "^0.23.2",
     "semver": "^7.6.3",
